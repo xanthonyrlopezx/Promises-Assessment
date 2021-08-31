@@ -30,3 +30,5 @@ function fullSession(question) {
  }
            
 module.exports = { getFortune, fullSession };
+//The commented out code is what I did before but had curly brackets which were removed
+//The arrow goes to empty which equals the array being returned, which the ... (rest operator) destructors the array to return empty with message. 
